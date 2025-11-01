@@ -1,0 +1,54 @@
+
+cobc -x filename.cbl
+filename
+
+Reports are 55 wide max
+----------------------------
+
+IBM ZID: Z66563
+IBM Z Password: PUD08EMU
+
+
+z66563,ZXP.public
+
+----------------------------
+
+- files/system for streamer discord
+- black/white lists for members
+
+----------------------------
+
+- Backlog games
+- Report on played and not played
+
+----------------------------
+
+- Song list- artist names
+- genres
+
+----------------------------
+
+- Spendings list
+- For how much is spent on what (groceries/transit/etc.)
+
+----------------------------
+
+Work hours
+- hours worked / overtime
+- money earned / hourly pay
+- vacation days spent
+- Sick days
+- 
+
+----------------------------
+
+Mat liste
+
+- Chicken/beef/pork/etc.
+- Rice/potato/pasta
+
+----------------------------
+
+Receits
+
+Type	ReceitNr	Date	Name	Price	

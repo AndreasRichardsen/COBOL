@@ -1,0 +1,2 @@
+cobc -x Nameofprogram.cbl
+./Nameofprogram.cbl
