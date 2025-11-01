@@ -76,6 +76,7 @@
               END-PERFORM
            CLOSE WorkHourFile           
            STOP RUN.
+      *    Test     
 
        MoveToLastEntry.
               MOVE WHYear TO LEYear 
