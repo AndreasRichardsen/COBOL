@@ -72,8 +72,8 @@
 
        01 PrevDate              PIC X(8).
 
-       01 StartDate             PIC 9(8) VALUE 20250926.
-       01 EndDate               PIC 9(8) VALUE 20251025.
+       01 StartDate             PIC 9(8) VALUE 20251226.
+       01 EndDate               PIC 9(8) VALUE 20260125.
 
        PROCEDURE DIVISION.
            OPEN INPUT WorkHourFile

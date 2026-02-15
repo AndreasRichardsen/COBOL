@@ -45,7 +45,7 @@
               03 LEEndMinute    PIC 9(2).
        01 StandardHours.
            02 SHStart1          PIC 9(4)    VALUE 0730.
-           02 SHEnd1           PIC 9(4)     VALUE 1150.
+           02 SHEnd1            PIC 9(4)    VALUE 1150.
            02 SHStart2          PIC 9(4)    VALUE 1220.
            02 SHEnd2            PIC 9(4)    VALUE 1600.
        01 StandarHoursFriday.
