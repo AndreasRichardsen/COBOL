@@ -72,8 +72,14 @@
 
        01 PrevDate              PIC X(8).
 
-       01 StartDate             PIC 9(8) VALUE 20251226.
-       01 EndDate               PIC 9(8) VALUE 20260125.
+       01 StartDate.
+           02 StartYear         PIC 9(4).
+           02 StartMonth        PIC 9(2).
+           02 StartDay          PIC 9(2) VALUE 26.
+       01 EndDate.
+           02 EndYear           PIC 9(4).
+           02 EndMonth          PIC 9(2).
+           02 EndtDay           PIC 9(2) VALUE 25.
 
        PROCEDURE DIVISION.
            OPEN INPUT WorkHourFile
@@ -82,10 +88,14 @@
            WRITE PrintLine FROM SubjectHeading AFTER ADVANCING 1 LINE 
            WRITE PrintLine FROM Divider AFTER ADVANCING 1 Line
 
-      *     DISPLAY "Start of month (YYYYMMDD)"
-      *     ACCEPT StartDate
-      *     DISPLAY "End of month (YYYYMMDD)"
-      *     ACCEPT EndDate 
+           DISPLAY "Start year"
+           ACCEPT StartYear
+           DISPLAY "Start month"
+           ACCEPT StartMonth 
+           DISPLAY "End Year"
+           ACCEPT EndYear 
+           DISPLAY "End month"
+           ACCEPT EndMonth  
 
            READ WorkHourFile 
               AT END SET EndOfFileWH TO TRUE 
