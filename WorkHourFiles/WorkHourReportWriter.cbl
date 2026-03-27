@@ -87,7 +87,7 @@
            WRITE PrintLine FROM ReportHeading AFTER ADVANCING 1 LINE 
            WRITE PrintLine FROM SubjectHeading AFTER ADVANCING 1 LINE 
            WRITE PrintLine FROM Divider AFTER ADVANCING 1 Line
-
+      * Ask for year and month, then extrapolate for end year and month
            DISPLAY "Start year"
            ACCEPT StartYear
            DISPLAY "Start month"
